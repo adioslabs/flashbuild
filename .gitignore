@@ -85,5 +85,5 @@ typings/
 .dynamodb/
 
 # Build and Temp folders
-__Build/
-__Temp/
+___Build/
+___Temp/
