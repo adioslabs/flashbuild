@@ -1,7 +1,7 @@
 {
-  "name": "gulpstarter2",
+  "name": "flashbuild",
   "version": "1.0.0",
-  "description": "HTML Development Automation project",
+  "description": "HTML Front End Development Automation project",
   "main": "index.js",
   "scripts": {
     "watch": "gulp watch",
