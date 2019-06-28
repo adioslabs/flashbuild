@@ -170,7 +170,7 @@ function jsCopy() {
 function image_comp() {
   return gulp
     .src(pathconf.paths.temp.img + "/*")
-    .pipe(newer(pathconf.paths.temp.img))
+    .pipe(newer(pathconf.paths.src.img))
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),
