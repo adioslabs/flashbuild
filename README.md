@@ -1,20 +1,24 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![logo](flashbuild.png "flashbuild")
 
-## Project
+# Description
 
----
+### Flash Build is made to make the HTML front end development easier.
 
-This project is made to make the HTML front end development easier.
+### It is developed for internal development use within the company.
 
-## Under the hood
+# Under the hood
 
----
+### We use Gulp for automation, PUG for Html Template and SASS for css.
 
-![alt text](https://gulpjs.com/img/gulp-white-text.svg "Gulp") ![alt text](https://raw.githubusercontent.com/pugjs/pug-logo/master/PNG/pug-final-logo_-colour-128.png "Pug") ![alttext](https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png "sass")
+![gulp](gulplogo.png "Gulp") ![Pug](puglogo.png "Pug") ![Sass](sasslogo.png "sass")
 
-## Installation
+# Installation
 
----
+### To Initiate the development environment using this project.
 
-Documentation
-Run
+### Run Below commands
+
+    Run Git clone of this repository
+    npm install
+    npm run compile
+    npm run watch
