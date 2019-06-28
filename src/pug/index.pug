@@ -3,12 +3,20 @@ html
     include includes/header.pug
     body
         .hero.flex
-            .center
-                //- span
-                //-     img(src="img/gulp.png", alt="logo", srcset="")
-                
-                .txt-huge.txt-c Flash Build
-                h2.txt-c Lightning Speed Development
-                p.txt-c Flash Build is for a lightning speed development automation for Frontend HTML.
+            .center.txt-c
+                .flex 
+                    img.center#logo(src="img/flashbuild.png", alt="Logo")
+                br                
+                h2#subtitle Lightning Speed Development
+                br
+                #description
+                    p A frontend development template with build automation.
                     
-    include includes/footer.pug
+        #stage1.banner.flex
+            .center.txt-c
+                h2 Features
+                p Pug for HTML.
+                p Sass for CSS along with Tailwind for faster development.
+                p All your JS and CSS files are minified and purged. So you can expect a feather weight files for production.
+
+        include includes/footer.pug
