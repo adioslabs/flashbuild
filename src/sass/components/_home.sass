@@ -124,10 +124,17 @@ img#logo
         width: 40%
         height: auto
         padding: 10px
+#foo-img
+    width: 10%
+    height: auto
+    display: inline-block !important
+    @include for-size(phone-only)
+        width: 20%
 
 #features
     @include for-size(phone-only)
         padding: 15px
+
 .flex-row
     display: flex
     // flex-direction: row
@@ -141,9 +148,3 @@ img#logo
 #footer-item02
     order: 2
     flex-grow: 1
-
-#foo-link
-    display: inline
-    width: 10%
-    @include for-size(phone-only)
-        width: 20%
